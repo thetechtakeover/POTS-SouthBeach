@@ -211,7 +211,7 @@ display: inline-block;
 .potsOfWeek {
     
     background-color: #fff;
-    height: 80vh;   
+    height: 90vh;   
 }
 
 .potsOfWeek h2 {
@@ -221,24 +221,25 @@ display: inline-block;
     color: #000;
     text-shadow: 2px 3px 6px #3F9B95;
     font-size: 30px;
-    padding: 20px 0 20px 0;
+    padding: 60px 0 20px 0;
   
     
 }
 
 .pots-Container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
     align-items: center;
     margin-top: 30px;
     padding: 10px;
+    border: 3px solid red;
   
 }
 
 
 .potsOfWeek img {    
     display: block;
-    border-radius: 3px;
+    border-radius: 2px;
 
 }
 
@@ -424,7 +425,7 @@ position: absolute;
 .nightlife_title {
     position: relative;
     color: #fff;
-    text-shadow: 2px 3px 3px #000;
+    text-shadow: 2px 3px 5px #05998f;
     font-size: 50px;
     padding: 10px;
     font-family: 'Abel', sans-serif;
@@ -443,9 +444,10 @@ position: absolute;
 
 .nightlife_title:hover {
     transform: scale(1.1);
-    color: rgb(194, 197, 6);
+    font-family:'Bowlby One', cursive;
+    color: #05998f;
     font-weight: 300;
-    text-shadow: 3px 4px 5px rgb(0, 0, 0);
+    text-shadow: 3px 3px 3px #fff;
     padding: 5px;
     text-transform: uppercase;
 }
@@ -459,11 +461,11 @@ position: absolute;
 }
 
 .nightlife_content h3 {
-    color: #fff;
+    color: #05998f;
     font-size: 30px;
     text-transform: capitalize;
     text-align: center;
-    text-shadow: 1px 3px 5px #05998f;
+    text-shadow: 1px 2px 2px #fff;
     padding-bottom: 10px;
     margin: 25px auto;
 
